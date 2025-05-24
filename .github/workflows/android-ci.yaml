@@ -31,5 +31,5 @@ jobs:
       - name: Set up Gradle
         uses: gradle/gradle-build-action@v2
 
-        -name: buatin APK
-         run: ./gradlew app:assembleDebug
+      - name: buatin APK
+        run: ./gradlew app:assembleDebug
